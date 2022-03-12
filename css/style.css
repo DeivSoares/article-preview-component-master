@@ -1,0 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    background-color: #ecf2f8;
+}
+
+main{
+    background-color: #f7ada51c;
+    box-shadow: 7px 6px 12px rgb(0 0 0 / 17%);
+    margin: auto;
+    margin-top: 12%;
+    margin-left: 20%;
+    border-radius: 8px;
+    width: 680px;
+    height: 270px;
+    display: inline-flex;
+}
+
+#foto-principal{
+    border-radius: 8px 0px 0px 8px;
+    width: 250px;
+    height: 270px;
+}
+
+article{
+    display: inline-block;
+    padding: 20px;
+    padding-left: 40px;
+    width: 500px;
+    height: 200px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+#desc{
+    text-align: justify;
+}
+
+#ftmichelle{
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 40px;    
+}
+.cite{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#share{
+    border-radius: 50%;
+    margin-left: 180px;
+    width: 26px;
+    height: 24px;
+    display: inline-flex;
+}
+
+
+
+.attribution {
+        font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
